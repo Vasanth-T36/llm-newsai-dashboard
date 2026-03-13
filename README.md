@@ -1,31 +1,31 @@
-# 🌐 NewsAI — Real-Time Intelligence Dashboard
+# NewsAI — Real-Time Intelligence Dashboard
 
 NewsAI is a high-performance, full-stack AI-powered news dashboard designed to fetch, summarize, and analyze global news in real-time. It combines a premium glassmorphic UI with advanced Natural Language Processing (NLP) and a deep-search AI Assistant to provide users with a comprehensive overview of current events.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 📡 Real-Time News Engine
+### Real-Time News Engine
 *   **Global & Regional Feeds**: Fetch news from tailored regions (India, US, UK, etc.) based on Google News RSS.
 *   **Intelligent Summarization**: Automatically extracts and summarizes articles using NLTK and Newspaper3k.
 *   **Sentiment Detection**: AI-powered sentiment analysis (😊 Positive, 😟 Negative, 😐 Neutral) for every news card.
 *   **Persistent Storage**: Efficiently stores fetched headlines and metadata in a local SQLite database.
 
-### 🤖 Advanced AI Chatbot (NewsAI)
+### Advanced AI Chatbot (NewsAI)
 *   **RAG (Retrieval-Augmented Generation)**: Uses FAISS vector search to answer questions based on the live news feed.
 *   **Web Search Integration**: Seamlessly searches the live web via DuckDuckGo for context beyond the current feed.
 *   **Contextual Memory**: Remembers conversation history for deep, iterative analysis.
 *   **Proactive Insights**: Suggests follow-up questions and provides detailed citations/sources.
 
-### 🍱 Premium UI/UX
+### Premium UI/UX
 *   **Glassmorphic Design**: Modern dark-mode interface with translucent elements and smooth CSS animations.
 *   **Interactive Stats**: Real-time metrics on articles loaded, AI interactions, and system status.
 *   **Two-Panel Layout**: Seamlessly switch between the live news feed and the AI workspace.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 NLP_News_Project/
@@ -43,7 +43,7 @@ NLP_News_Project/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend & UI
 *   **Streamlit**: Core application framework.
@@ -60,7 +60,7 @@ NLP_News_Project/
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -94,7 +94,7 @@ streamlit run app.py
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 1.  **Select Region**: Use the sidebar to focus on specific news markets (e.g., India, Global).
 2.  **Explore Feed**: Browse news cards, check sentiment tags, and click links for original sources.
@@ -103,4 +103,4 @@ streamlit run app.py
 
 ---
 
-*Built with ❤️ for AI-first News Analysis.*
+
