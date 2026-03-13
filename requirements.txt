@@ -1,0 +1,16 @@
+streamlit
+requests
+feedparser
+newspaper3k
+nltk
+duckduckgo-search
+schedule
+sentence-transformers
+faiss-cpu
+python-dateutil
+lxml
+beautifulsoup4
+pandas
+geopy
+tqdm
+python-dotenv
